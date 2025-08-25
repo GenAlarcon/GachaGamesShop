@@ -15,3 +15,15 @@
     object-fit: cover;
     filter: brightness(0,6);
 }
+
+/* Que el carrusel se comporte como una card en ancho */
+#carouselExampleSlidesOnly {
+  max-width: 100%;   /* igual que la card */
+  margin: 0 auto;    /* lo centra */
+}
+
+/* Controlamos el alto */
+#carouselExampleSlidesOnly .carousel-item img {
+  height: 150px;     /* ajusta el alto a gusto */
+  object-fit: cover; /* recorta sin deformar */
+}
