@@ -1,0 +1,2 @@
+# GachaGamesShop
+Actividad de fullstack
